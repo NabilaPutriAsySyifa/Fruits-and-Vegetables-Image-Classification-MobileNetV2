@@ -20,7 +20,7 @@
 
 ## 📊 Tentang Proyek
 
-Proyek **deep learning** untuk klasifikasi otomatis **kesegaran (freshness quality)** buah dan sayuran menggunakan **MobileNetV2** dengan teknik **Transfer Learning** dan **Fine-Tuning**. Model ini mampu membedakan antara produk **segar (fresh)** dan **busuk (rotten)** dari **10 jenis** buah dan sayuran berbeda, dengan total **20 kelas** klasifikasi dan akurasi test mencapai **95,63%**.
+Proyek **deep learning** untuk klasifikasi otomatis **kesegaran (freshness quality)** buah dan sayuran menggunakan **MobileNetV2** dengan teknik **Transfer Learning** dan **Fine-Tuning**. Model ini mampu membedakan antara produk **segar (fresh)** dan **busuk (rotten)** dari **10 jenis** buah dan  **10 jenis** sayuran berbeda, dengan total **20 kelas** klasifikasi dan akurasi test mencapai **95,63%**.
 
 ### 🎯 Tujuan Proyek
 
@@ -76,9 +76,9 @@ Dataset berkualitas tinggi yang dirancang khusus untuk klasifikasi **segar vs bu
 ├── 🥦 Kategori Sayuran: 6.003 gambar
 │
 └── Pembagian Dataset (rasio 80:10:10):
-    ├── Training   : ~9.600 gambar  (80%)
-    ├── Validation : ~1.200 gambar  (10%)
-    └── Test       : ~1.200 gambar  (10%)
+    ├── Training   : ~9.581 gambar  (80%)
+    ├── Validation : ~1.191 gambar  (10%)
+    └── Test       : ~1.214 gambar  (10%)
 ```
 
 ### 20 Kelas (Varian Segar + Busuk)
@@ -245,7 +245,7 @@ Model dilatih hingga mencapai **target akurasi 95%** secara serentak pada data t
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Akurasi Training    : 95,13% ✅
-Akurasi Validasi    : 95,69% ✅
+Akurasi Validasi    : 95,63% ✅
 
 Loss Training       : 0,1674
 Loss Validasi       : 0,1537
@@ -283,7 +283,7 @@ Langkah evaluasi : 38 steps (batch size 32)
 | **Akurasi Test** | **95,63%** | ✅ Melampaui target (≥95%) |
 | **Loss Test** | 0,1613 | ✅ Rendah dan stabil |
 | **Akurasi Training** | 95,13% | ✅ Tercapai di Epoch 49 |
-| **Akurasi Validasi** | 95,69% | ✅ Tidak overfitting |
+| **Akurasi Validasi** | 95,63% | ✅ Tidak overfitting |
 | **Ukuran Model** | 11,51 MB | ✅ Ringan & efisien |
 
 ---
@@ -327,7 +327,7 @@ Buka notebook di Google Colab, jalankan seluruh cell, lalu upload gambar buah at
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Gambar ini terdeteksi sebagai : ROTTEN STRAWBERRY
-Tingkat Kepercayaan Model     : 99.95%
+Tingkat Kepercayaan Model     : 99.98%
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -434,7 +434,7 @@ prediksi_kesegaran('gambar_buah_sayur.jpg')
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Gambar terdeteksi sebagai : ROTTEN STRAWBERRY
 Kondisi                   : BUSUK ❌
-Tingkat Kepercayaan       : 99.95%
+Tingkat Kepercayaan       : 99.98%
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
@@ -555,8 +555,6 @@ Fruits-and-Vegetables-Image-Classification-MobileNetV2/
 ## 📞 Kontak
 
 - 📧 Email: nabilaputriasysyifa99@gmail.com
-- 🐙 GitHub: [@NabilaPutriAsySyifa](https://github.com/NabilaPutriAsySyifa)
-- 📊 Portfolio: [Lihat Proyek Lainnya](https://github.com/NabilaPutriAsySyifa?tab=repositories)
 
 ---
 
@@ -565,9 +563,6 @@ Fruits-and-Vegetables-Image-Classification-MobileNetV2/
 Terima kasih kepada:
 - **Kaggle** atas penyediaan dataset berkualitas tinggi secara terbuka
 - **Google Colab** atas akses GPU gratis yang memungkinkan pelatihan model
-- **Tim TensorFlow & Keras** atas framework deep learning yang luar biasa
-- **Para Penulis MobileNetV2** (Sandler et al., 2018) atas arsitektur yang efisien
-- **Komunitas Open Source** atas tools dan resources yang digunakan
 
 ---
 
@@ -591,8 +586,6 @@ Proyek ini dibuat untuk keperluan **portofolio dan pembelajaran**.
 
 **Lisensi Dataset:** CC0-1.0 (Domain Publik) — lihat [halaman dataset Kaggle](https://www.kaggle.com/datasets/muhriddinmuxiddinov/fruits-and-vegetables-dataset)
 
-**Lisensi Kode:** MIT License — bebas digunakan untuk pembelajaran & keperluan non-komersial.
-
 ---
 
 <div align="center">
@@ -605,7 +598,7 @@ Proyek ini dibuat untuk keperluan **portofolio dan pembelajaran**.
 
 ---
 
-© 2025 Nabila Putri Asy Syifa | Deep Learning Portfolio
+© 2026 Nabila Putri Asy Syifa | Deep Learning Portfolio
 
 **[📓 Lihat Notebook](https://github.com/NabilaPutriAsySyifa/Fruits-and-Vegetables-Image-Classification-MobileNetV2/blob/main/Submission_Dicoding_Deep_Learning_Akhir_MobileNetV2.ipynb)** | **[📊 Dataset](https://www.kaggle.com/datasets/muhriddinmuxiddinov/fruits-and-vegetables-dataset)** | **[🚀 Live Demo](https://colab.research.google.com/github/NabilaPutriAsySyifa/Fruits-and-Vegetables-Image-Classification-MobileNetV2/blob/main/Submission_Dicoding_Deep_Learning_Akhir_MobileNetV2.ipynb)**
 
